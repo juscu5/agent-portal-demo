@@ -1,0 +1,49 @@
+.TableOrganism {
+  table {
+    background-color: #ffffff !important;
+    border-radius: 18px;
+    padding-top: 1rem;
+    padding-bottom: 2.5rem !important;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1.1rem !important;
+    border-collapse: separate;
+
+    td:first-child {
+      border-top-left-radius: 20px !important;
+      border-bottom-left-radius: 20px !important;
+    }
+
+    td:last-child {
+      border-top-right-radius: 20px !important;
+      border-bottom-right-radius: 20px !important;
+    }
+
+    tr:nth-child(odd) {
+      background-color: #e9ecf1 !important;
+    }
+    tr {
+      th {
+        text-align: center !important;
+        border: none !important;
+        font-size: 14px;
+        color: #707070;
+        background-color: #ffffff !important;
+      }
+      td {
+        text-align: center;
+        font-weight: 500;
+        vertical-align: middle;
+        border: none !important;
+        font-size: 14px;
+
+        input {
+          border-radius: 16px !important;
+          border-color: #e9ecf1 !important;
+          padding: 2px 16px !important;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+.input {
+  background-color: #ffffff;
+  border-color: #e9ecf1 !important;
+  border-radius: 8px;
+  color: #363636;
+  box-shadow: none !important;
+}
+input:focus {
+  border: 1px solid #3e2e87 !important;
+  background-color: rgb(248, 248, 248);
+}
+input:hover {
+  border: 1px solidrgb(134, 134, 134) 7 !important;
+  background-color: rgb(248, 248, 248);
+}
+
+// --------------------button----------------------------
+button {
+  width: 100%;
+  box-shadow: none !important;
+  padding-left: 32px !important;
+  padding-right: 32px !important;
+  height: 34px !important;
+}
+
+$btnPink: #e51e5c;
+.btn-pink {
+  background-color: $btnPink !important;
+  border: 1px solid darken($btnPink, 10%) !important;
+  color: #ffffff !important;
+  font-weight: 500;
+}
+
+.btn-pink:hover {
+  background-color: lighten($btnPink, 5%) !important;
+  border: 1px solid darken($btnPink, 10%) !important;
+  color: #ffffff !important;
+}
+
+.btn-pink:active {
+  background-color: lighten($btnPink, 10%) !important;
+  border: 1px solid darken($btnPink, 15%) !important;
+  color: #ffffff !important;
+}
+
+.btn-pink-outline {
+  background-color: transparent !important;
+  border: 1px solid $btnPink !important;
+  color: $btnPink !important;
+  font-weight: 500;
+}
+.btn-pink-outline:hover {
+  background-color: $btnPink !important;
+  border: 1px solid darken($btnPink, 10%) !important;
+  color: #ffffff !important;
+}
+
+.btn-pink-outline:active {
+  border: 1px solid darken($btnPink, 15%) !important;
+}
+
+$btnPurple: #3e2e87;
+.btn-purple {
+  background-color: $btnPurple !important;
+  border: 1px solid darken($btnPurple, 10%) !important;
+  color: #ffffff !important;
+  font-weight: 500;
+}
+
+.btn-purple:hover {
+  background-color: lighten($btnPurple, 5%) !important;
+  border: 1px solid darken($btnPurple, 10%) !important;
+  color: #ffffff !important;
+}
+
+.btn-purple:active {
+  background-color: lighten($btnPurple, 10%) !important;
+  border: 1px solid darken($btnPurple, 15%) !important;
+  color: #ffffff !important;
+}
+
+.btn-purple-outline {
+  background-color: transparent !important;
+  border: 1px solid $btnPurple !important;
+  color: $btnPurple !important;
+  font-weight: 500;
+}
+
+.btn-purple-outline:hover {
+  background-color: $btnPurple !important;
+  border: 1px solid darken($btnPurple, 20%) !important;
+  color: #ffffff !important;
+}
+
+.btn-purple-outline:active {
+  border: 1px solid darken($btnPurple, 35%) !important;
+}
+
+// ---------- end of button -----------------
+
+.ContainerAtom {
+  padding: 32px;
+  background-color: #ffffff;
+  border-radius: 18px;
+  box-shadow: 2px 6px 8px rgba(155, 155, 155, 0.25);
+}

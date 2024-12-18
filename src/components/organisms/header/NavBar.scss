@@ -1,0 +1,98 @@
+.NavBar {
+  padding-top: 3rem!important;
+  padding-left: 5rem!important;
+  padding-right: 5rem!important;
+
+  .navbar-item {
+  line-height: 2.5 !important;
+}
+
+.imagelogo {
+  height: 90% !important;
+  max-height: 4rem !important;
+  width: 18rem !important;
+}
+
+.navbar-burger {
+  height: 5rem !important;
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+
+.navbar {
+  border-radius: 18px;
+}
+
+.linkManageClientCompany {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 4rem !important;
+  padding-right: 4rem !important;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.manageLinks {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 4rem !important;
+  padding-right: 4rem !important;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.manageCategory {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 4rem !important;
+  padding-right: 4rem !important;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.logoutButton {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 4rem !important;
+  padding-right: 4rem !important;
+}
+
+.navbar-dropdown {
+  background-color: white;
+  border-radius: 10px !important;
+  font-size: 1rem !important;
+  min-width: 75.4% !important;
+  right: 4.5% !important;
+  padding: 0.375rem 0.5rem;
+}
+
+.loginName {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding-bottom: -25px !important;
+}
+
+.userAccount {
+  color: #707070 !important;
+}
+
+.linkManageClientLinks,
+.linkManageClientCompany,
+.linkCategory {
+  color: #707070;
+}
+
+a.navbar-item:focus,
+a.navbar-item:focus-within,
+a.navbar-item:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+
+  .linkManageClientLinks,
+  .linkManageClientCompany,
+  .linkCategory {
+    color: #485fc7;
+  }
+}
+
+}

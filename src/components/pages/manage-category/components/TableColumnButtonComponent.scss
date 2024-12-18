@@ -1,0 +1,23 @@
+.buttonColumn {
+  display: flex;
+  width: 300px;
+
+  button {
+    width: auto !important;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 13px !important;
+    font-weight: 400;
+  }
+
+  .button-edit {
+    margin: auto !important;
+  }
+
+  .button-left {
+    margin-left: auto !important;
+  }
+  .button-right {
+    margin-right: auto !important;
+  }
+}

@@ -1,0 +1,227 @@
+.LoginComponent {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+  .bg-wings {
+    height: 100vh;
+    position: relative;
+
+    .wings-1 {
+      width: 100%;
+      height: 100vh;
+      object-fit: contain;
+      opacity: 0.7;
+      position: absolute;
+      left: -90px;
+      object-position: left;
+    }
+
+    .wings-2 {
+      width: calc(100% + 90px);
+      height: calc(100vh + 120px);
+      object-fit: contain;
+      opacity: 0.5;
+      position: absolute;
+      top: -80px;
+      left: -90px;
+      object-position: left;
+    }
+  }
+
+  .loginContainer {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+
+    .login-body-content {
+      width: 90%;
+      height: 70vh;
+      background-color: #ffffff;
+      margin: auto;
+      border-radius: 36px;
+      position: relative;
+      display: flex;
+
+      .globe-icon-content {
+        width: 100%;
+        position: absolute;
+        display: flex;
+
+        .globe-bg {
+          width: 50%;
+          height: auto;
+          object-fit: contain;
+          object-position: center;
+          opacity: 0.7;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: auto;
+          margin-top: 16px;
+        }
+      }
+
+      .side-design {
+        width: 50%;
+        display: flex;
+
+        .clip-art-wrapper {
+          position: relative;
+          width: 100%;
+          height: 70vh;
+          display: flex;
+
+          .body-wing {
+            width: 100%;
+            height: calc(70vh + 12px);
+            left: -24px;
+            position: absolute;
+          }
+
+          .tp-logo {
+            position: absolute;
+            left: 72px;
+            top: 16px;
+            animation: tpLogoAnimation 1.5s;
+          }
+
+          .img-clip-art {
+            width: 400px;
+            margin: auto;
+
+            .img-content {
+              position: relative;
+
+              .clip-art-phone {
+                position: absolute;
+                top: 48px;
+                left: -24px;
+                animation: clipArtLogoAnimcation 1.5s;
+              }
+
+              .clip-art-coffee {
+                position: absolute;
+                bottom: 12px;
+                right: 16px;
+                animation: clipArtCoffeeAnimcation 1.5s;
+              }
+
+              .clip-art-laptop {
+                animation: clipArtLaptopAnimcation 1.5s;
+              }
+            }
+          }
+        }
+      }
+
+      .side-login {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        padding: 32px;
+
+        .login-body {
+          width: 60%;
+          height: auto;
+          margin-top: auto;
+          margin-bottom: auto;
+          margin-right: auto;
+          margin-left: auto;
+          display: block;
+          animation: loginAnimation 1.5s;
+
+          .logo {
+            width: 100%;
+            height: auto;
+            display: flex;
+
+            img {
+              height: 100px;
+              object-fit: contain;
+              object-position: center;
+              margin-left: auto;
+              margin-right: auto;
+              margin-bottom: 12px;
+            }
+          }
+
+          p {
+            text-align: center;
+            color: #626262;
+            margin-bottom: 12px;
+          }
+
+          button {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+main {
+  padding: 0px !important;
+}
+
+@keyframes loginAnimation {
+  to {
+    opacity: 1;
+  }
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes tpLogoAnimation {
+  to {
+    opacity: 1;
+    left: 72px;
+  }
+  from {
+    opacity: 0;
+    left: 32px;
+  }
+}
+
+@keyframes clipArtLogoAnimcation {
+  to {
+    opacity: 1;
+    left: -24px;
+    top: 48px;
+  }
+  from {
+    opacity: 0;
+    left: -48px;
+    top: 84px;
+  }
+}
+
+@keyframes clipArtCoffeeAnimcation {
+  to {
+    opacity: 1;
+    bottom: 12px;
+    right: 16px;
+  }
+  from {
+    opacity: 0;
+    bottom: 32px;
+    right: -16px;
+  }
+}
+
+@keyframes clipArtLaptopAnimcation {
+  to {
+    opacity: 1;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  from {
+    opacity: 0;
+    margin-right: 32px;
+    margin-bottom: 32px;
+  }
+}

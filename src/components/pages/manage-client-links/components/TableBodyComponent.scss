@@ -1,0 +1,30 @@
+.TableBodyComponent {
+  height: auto;
+  width: 100% !important;
+  border-radius: 18px;
+  background-color: #ffffff;
+  padding-bottom: 24px;
+
+  .button-footer {
+    width: 100%;
+    display: flex;
+
+    button {
+      width: auto !important;
+    }
+
+    .btn-pink {
+      margin-left: auto;
+      margin-right: 4px;
+    }
+
+    .is-danger {
+      margin-right: auto;
+      margin-left: 4px;
+    }
+  }
+}
+
+.tableButtonCol {
+  width: 100px !important;
+}

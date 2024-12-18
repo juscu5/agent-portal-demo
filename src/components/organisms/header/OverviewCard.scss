@@ -1,0 +1,42 @@
+.forLinksOverview {
+  padding-top: 8rem;
+
+  .forCardsOverview {
+    width: 20rem !important;
+    height: 33rem !important;
+    border-radius: 18px !important;
+
+    .forContentHeight {
+      height: 13rem !important;
+      overflow: auto;
+      font-size: smaller;
+    }
+    .card-image:first-child img {
+      border-radius: 50% !important;
+    }
+    .image {
+      width: 80%;
+      padding: 10px;
+      margin: auto;
+
+      .imageClass {
+        height: 15rem;
+        border: 4px solid white !important;
+        margin-top: -8rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+    }
+
+    .btnSector {
+      .btnOverview {
+        background-color: white !important;
+        color: #f14668 !important;
+        border-color: #f14668 !important;
+        border-width: 2px !important;
+        font-weight: 500 !important;
+        width: 100% !important;
+      }
+    }
+  }
+}

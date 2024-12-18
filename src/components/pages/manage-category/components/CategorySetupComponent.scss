@@ -1,0 +1,36 @@
+.CategorySetupComponent {
+  .NewSetupClass {
+    width: 100%;
+    display: flex;
+
+    .form-group {
+      padding-right: 16px !important;
+
+      select {
+        min-width: 260px;
+      }
+
+      label {
+        text-align: left !important;
+      }
+    }
+  }
+
+  .button-footer {
+    width: 100%;
+    display: flex;
+
+    button {
+      width: auto !important;
+    }
+
+    .btn-pink {
+      margin-right: 4px;
+      margin-left: 16px;
+    }
+
+    .is-danger {
+      margin-left: 4px;
+    }
+  }
+}

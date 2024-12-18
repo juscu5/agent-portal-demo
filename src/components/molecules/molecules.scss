@@ -1,0 +1,21 @@
+.form-group {
+  margin-bottom: 6px !important;
+
+  label {
+    font-weight: 500;
+    color: #505050 !important;
+  }
+
+  .input {
+    border: 1px solid #9e9e9e !important;
+    box-shadow: none !important;
+  }
+
+  .input:focus {
+    border: 1px solid #3e2e87 !important;
+  }
+
+  .is-danger {
+    border-color: #f14668 !important;
+  }
+}

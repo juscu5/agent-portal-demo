@@ -1,0 +1,76 @@
+.MessageDialogComponent {
+  position: fixed;
+  top: 24px;
+  right: 24px;
+  background-color: #ffffff;
+  display: block;
+  width: 320px;
+  filter: drop-shadow(2px 4px 8px rgba(155, 155, 155, 0.5));
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  animation: AnimationDialog 0.75s ease-in-out;
+  z-index: 9999999;
+
+  .progress-bar {
+    width: 100%;
+    height: 5px;
+    display: flex;
+    background-color: #9e9e9e;
+
+    .progress-fill {
+      background-color: #e8356d !important;
+      width: 0%;
+      transition: width 5s ease-in-out;
+    }
+  }
+
+  .dialog-details {
+    height: 90px;
+    display: flex;
+
+    .icon-sec {
+      width: 90px;
+      height: 90px;
+      padding: 12px;
+      display: flex;
+
+      img {
+        width: 45px;
+        height: 45px;
+        margin: auto;
+      }
+    }
+
+    .info-sec {
+      display: block;
+      margin-top: auto;
+      margin-bottom: auto;
+
+      label {
+        width: 100%;
+        height: auto;
+        display: block;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 14px;
+        padding-bottom: 0px !important;
+      }
+
+      small {
+        font-size: 12px;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+@keyframes AnimationDialog {
+  from {
+    opacity: 0;
+    top: 64px;
+  }
+  to {
+    opacity: 1;
+    top: 24px;
+  }
+}
